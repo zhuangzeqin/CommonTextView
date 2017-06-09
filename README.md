@@ -1,7 +1,7 @@
 
 # CommonTextView
 SuperTextView是一个功能强大的 View，可以满足日常大部分布局样式，开发者可已自行组合属性配置出属于自己风格的样式!可能描述起来没有概念，信不信由你了； 反正我被震撼到了
-
+![image](https://github.com/zhuangzeqin/CommonTextView/blob/master/device-2017-06-09-144816.png)
 下面是部分代码实例
 
 
