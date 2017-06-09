@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.eeepay.cn.demo.commontextview.MainActivity">
+
+
+    <!--单行的 -->
+    <com.allen.library.SuperTextView
+        android:id="@+id/stv_zh"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:sLeftIconRes="@drawable/bank_zhao_shang"
+        app:sLeftIconMarginLeft="20dp"
+        app:sLeftTextSize="18sp"
+        app:sLeftTextString="招商银行"
+        app:sLeftTextColor="@color/colorAccent"
+        app:sIsSingLines="true"
+        app:sRightTextString="查看详情"
+        app:sRightTextSize="15sp"
+        app:sRightTextStringRightIconRes="@drawable/arrow_right_red"
+        app:sRightTextStringRightIconResPadding="15dp"
+        />
+
+    <!--单行的 -->
+    <com.allen.library.SuperTextView
+        android:id="@+id/stv_zh2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:sLeftTextSize="18sp"
+        app:sLeftTextString="招商银行"
+        app:sLeftTextColor="@color/colorAccent"
+        app:sIsSingLines="true"
+        app:sRightTextString="查看详情"
+        app:sCenterTextColor="@color/red_btn"
+        app:sCenterTextString="中间显示的文本"
+        app:sCenterTextSize="14sp"
+        app:sCenterSpaceHeight="25dp"
+        app:sRightTextSize="15sp"
+        app:sLineShow="top"
+        app:sLineColor="@color/colorAccent"
+        app:sRightTextStringRightIconRes="@drawable/arrow_right_red"
+        app:sRightTextStringRightIconResPadding="15dp"
+        />
+
+    <com.allen.library.SuperTextView
+        android:id="@+id/stv_blance"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:sLeftIconRes="@drawable/balance_icon"
+        app:sLeftIconMarginLeft="20dp"
+        app:sLeftTopTextString="账号余额"
+        app:sLeftTopTextMarginLeft="20dp"
+        app:sLeftTopTextColor="@color/colorAccent"
+        app:sLeftTextColor="@color/colorAccent"
+        app:sLeftTopTextSize="18sp"
+        app:sLeftBottomTextString="可用余额"
+        app:sLeftBottomTextMarginLeft="20dp"
+        app:sLeftBottomTextColor2="@color/colorPrimary"
+        app:sLeftBottomTextString2="2020元"
+        app:sLineShow="both"
+        app:sLineColor="@color/colorAccent"
+        app:sBothLineWidth="105dp"
+        app:sBothLineMargin="105dp"
+        app:sRightCheckBoxRes="@drawable/circular_check_bg"
+        app:sRightCheckBoxMarginRight="15dp"
+        app:sRightCheckBoxShow="true"
+        app:sIsChecked="true"
+        app:sUseRipple="true"
+        app:sLeftTopViewIsClickable="true"
+        app:sLeftBottomViewIsClickable="true"
+        app:sLeftBottomView2IsClickable="true"
+        />
+</LinearLayout>
