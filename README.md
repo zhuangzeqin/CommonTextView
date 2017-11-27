@@ -34,3 +34,7 @@ SuperTextView是一个功能强大的 View，可以满足日常大部分布局�
         app:sLeftBottomViewIsClickable="true"
         app:sLeftBottomView2IsClickable="true"
         />
+
+ 如果对你有用；不妨请小编我喝个咖啡；嘻嘻；你的动力；是我不懈努力
+
+![image](https://github.com/zhuangzeqin/APPChannel/blob/master/TIM20171109141728.png)
